@@ -7,11 +7,13 @@ export default function BasicParameters(props) {
             <h1>
                 <span className="current-city">{props.city}</span>
                 <span className="current-weather-icon">
-                    <img
+                    {
+                        "icon"
+                    /* <img
                         id="icon"
                         src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}
                         alt={props.descrWeather}
-                    />
+                    /> */}
                 </span>
                 <span className="current-temp">{props.temp}</span>
                 <sup>
