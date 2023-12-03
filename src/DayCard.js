@@ -13,8 +13,8 @@ export default function DayCard(props) {
                 </div>
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">
-                    <span className="max">14℃</span>
-                    <span className="min">7℃</span>
+                    <span className="max">14 ℃</span>
+                    <span className="min">7 ℃</span>
                 </p>
                 <div className="btn btn-primary button" id="button-1">
                     More details
