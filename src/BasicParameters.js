@@ -8,7 +8,7 @@ export default function BasicParameters(props) {
                 <span className="current-city">{props.city}</span>
                 <span className="current-weather-icon">
                     {
-                        "icon"
+                    
                     /* <img
                         id="icon"
                         src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}
